@@ -47,6 +47,14 @@
 /*------------------------------------------------------------------
     SKELETON
 -------------------------------------------------------------------*/
+#hp  {
+float: right;    
+ margin: 0 0 0 15px;
+}
+#hp1  {
+float: left;    
+ margin: 0 0 0 15px;
+}
 
 body {
     color: #333333;
@@ -328,7 +336,7 @@ a img.aligncenter {
   width: 100%;
   height: 100%;
   z-index: 100;
-  background-color: #0594a9;
+  background-color: #1005a9;
 }
 
 .loader-wrapper .text {
@@ -436,14 +444,14 @@ a img.aligncenter {
 -------------------------------------------------------------------*/
 
 .top-navbar .bg-light{
-	padding-top: 15px;
-	padding-bottom: 15px;
-	box-shadow: 0 0 18px 0 rgba(0,0,0,.12);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	box-shadow: 0 0 8px 0 rgba(0,0,0,.12);
 }
 
 .top-navbar .navbar-expand-lg .navbar-nav{
-	background: #0594a9;
-	border-radius: 5px;
+	background: #2a1281;
+	border-radius: 1.2px;
 }
 
 
@@ -451,7 +459,7 @@ a img.aligncenter {
 	position: relative;
 }
 .top-navbar .navbar-light .navbar-nav .nav-link{
-	padding: 10px 18px;
+	padding: 8px 14px;
 	color: #ffffff;
 	position: relative;
 }
@@ -691,7 +699,7 @@ a.bttn-new:focus {
 
 
 .seo_version .sl-slider blockquote p{
-	font-size: 20px;
+	font-size: 22px;
 }
 
 
@@ -759,7 +767,7 @@ a.bttn-new:focus {
 }
 
 .section.color1 {
-    background-color: #448AFF;
+    background-color: #44ffb1;
 }
 
 .first-section {
@@ -840,7 +848,7 @@ body.seo_version .btn-light.ban-btn{
 }
 
 .progress-bar-success{
-	background: #0594a9;
+	background: #079cb6;
 	box-shadow: none;
 }
 
@@ -863,7 +871,7 @@ body.seo_version .btn-light.ban-btn{
 
 .vission-and-mission .nav-pills > li > a.active {
     border: none;
-    background: #0594a9;
+    background: #053ea9;
     color: #ffffff;
 }
 
@@ -889,7 +897,7 @@ body.seo_version .btn-light.ban-btn{
 }
 
 .why-dit p{
-	font-size: 13px;
+	font-size: 16px;
 }
 
 /*------------------------------------------------------------------
@@ -1016,7 +1024,7 @@ body.seo_version .btn-light.ban-btn{
 }
 
 .da-thumbs .pitem a div i {
-    background-color: #0594a9;
+    background-color: #0523a9;
     position: absolute;
     color: #ffffff;
     bottom: 0;
@@ -2260,7 +2268,7 @@ select.mobile-device {
 }
 
 .footer .widget-title h3 {
-    color: #0594a9;
+    color: #4c05a9;
     font-weight: 500;
     font-size: 21px;
     padding: 0;

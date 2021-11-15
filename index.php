@@ -1,7 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <!-- Basic -->
+
+<head>
+<link rel="stylesheet" >
+<style type="text/css">
+.auto-style1 {
+font-size: large;
+}
+.auto-style2 {
+font-size: larger;
+}
+.auto-style7 {
+text-align: center;
+}
+.auto-style8 {
+text-align: right;
+}
+.auto-style9 {
+text-align: left;
+}
+.auto-style10 {
+text-align: left;
+font-family: Georgia, "Times New Roman", Times, serif;
+}
+#hp  {
+float: right;    
+ margin: 0 0 0 15px;
+}
+</style>
+</head>
+
+<!-- Basic -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">   
    
@@ -9,13 +39,13 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
  
      <!-- Site Metas -->
-    <title>StockFlow</title>  
+    <title>StockFlow - Education & Analysis</title>  
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
     <!-- Bootstrap CSS -->
@@ -28,69 +58,22 @@
     <link rel="stylesheet" href="css/responsive.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css">
-	
-	<script src="js/modernizr.custom.79639.js"></script>
+
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-<style>
-o.oblique {
-  font-style: oblique;
-}
 
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial;
-  font-size: 20px;
-}
-
-.container {
-  position: relative;
-  max-width: 1300px;
-  margin: 0 auto;
-}
-
-.container img {vertical-align: middle;}
-
-.container .content {
-  position: absolute;
-  bottom: 0;
-  background: rgb(0, 0, 0); /* Fallback color */
-  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-  color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
-}
-
-
-</style>
 </head>
 <body class="seo_version">
 
-	<!-- LOADER -->
-	<div id="preloader">
-		<div class="loader-wrapper">
-			<div class="loader-new">
-				<div class="ball"></div>
-				<div class="ball"></div>
-				<div class="ball"></div>
-			</div>
-			<div class="text">LOADING...</div>
-		</div>
-	</div>
-	<!-- END LOADER -->
-	
-	<!-- Start header -->
+  	<!-- Start header -->
 	<header class="top-navbar">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<div class="container">
 				<a class="navbar-brand" href="index.html">
-					<img src="images/SF_logo1_re.png" alt="" />
-				</a>
+					<img src="images/logo-seo.png" alt="" />
+				</a> 
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-seo" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
 				  <span class="navbar-toggler-icon"></span>
 				</button>
@@ -134,16 +117,57 @@ body {
 	</header>
 	<!-- End header -->
 
-    
-                    </div><!-- end messagebox -->
-                </div><!-- end col -->
-				
 
-<div class="container">
- <iframe src="index.php" title="StockFlow Contact Us" width="100%" height="900" ></iframe> 
-</div>
-	
-	<footer class="footer">
+
+<p><p>
+
+<body  style="width: 1350px; height: 712px; background-color: #85DDD6;">
+<img src="images/conone.jpg" alt=""  id="hp"/>
+<form class="form-horizontal" style="margin-left:360px; background-color: #5EDBD0; height: 714px; width: 658px;" method="POST" action="contact_query.php">
+<h2 class="auto-style7">
+
+ <span class="auto-style2"><b>Contact Us</b></span>
+</h2><hr>
+
+ <p class="auto-style9">
+ <label for="full_name" style="font-size:18px; font-family:georgia; margin-top:10px;">
+ <strong>Your Name</strong></label></p>
+<p class="auto-style9">
+ &nbsp;<input type="text" name="full_name" id="full_name" placeholder="Enter your full name . . . ." autofocus="autofocus" required style="width: 304px; height: 56px"/>
+ 
+ </p>
+ 
+ <p class="auto-style10">
+ <label for="email" style="font-size:18px; font-family:georgia margin-top:10px;">
+ <strong>Your Email Address</strong></label></p>
+<p class="auto-style9">
+ &nbsp;<input type="email" name="email" id="email" placeholder="Enter your email . . . ." required style="width: 302px; height: 49px"/>
+ 
+ </p>
+ 
+ <p class="auto-style10">
+ <label for="message" style="font-size:18px; font-family:georgia margin-top:10px;">
+ <strong>Your Feedback</strong></label></p>
+<p class="auto-style9">
+ &nbsp;<textarea name="message" placeholder="Enter your feedback . . . ." required style="width: 479px; height: 194px"></textarea>
+ 
+ </p>
+<p class="auto-style7">
+    &nbsp;</p>
+ 
+<div class="auto-style8" style="width: 604px; height: 47px">
+ 
+ 
+ <button type="submit" name="send_message" class="auto-style1" style="width: 91px; height: 42px"><i class="icon-ok icon-large"></i>
+ <strong>SUBMIT</strong></button>
+ </div>
+
+<br />
+<br />
+<br />
+</form>
+<p><p>
+<footer class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-xs-12">
@@ -284,5 +308,5 @@ body {
 		</script>
 
 <script src="//code.tidio.co/enh4nw89ddnwwf6rpgaf831fg2xzaxjh.js" async></script>
-</body>
+
 </html>
